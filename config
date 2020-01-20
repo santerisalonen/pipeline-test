@@ -1,0 +1,10 @@
+REGION=eu-west-1
+
+
+# Pipeline config
+PIPELINE_STACK_NAME=github-codepipeline
+
+# github config
+GitHubOwner=santerisalonen
+GitHubRepo=pipeline-test
+GitHubBranch=master
