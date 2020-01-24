@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # configuration variables
-source config
+source ./config
 
 BUILD_BUCKET=${PIPELINE_STACK_NAME}-build
 

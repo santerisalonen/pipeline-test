@@ -84,13 +84,13 @@ Resources:
           InputArtifacts:
             - Name: SourceCode
           OutputArtifacts:
-          - Name: SourceCode
+          - Name: DeployOutput
           Configuration:
             ActionMode: CREATE_UPDATE
             Capabilities: CAPABILITY_IAM
             RoleArn: !GetAtt CloudformationRole.Arn
             StackName: !Ref ApplicationStackName
-            TemplatePath: !Sub "SourceCode::/app/application.yml"
+            TemplatePath: !Sub "SourceCode::app/application.yml"
           RunOrder: 1
 
   # 'GithubWebhook' satisfies two requirements:
