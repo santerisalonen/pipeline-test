@@ -11,7 +11,8 @@ Parameters:
     Default: index.html
   Body:
     Description: S3 Object Body
-    Type: <h1>Hello world</h1>
+    Type: String
+    Default: <h1>Hello world</h1>
 Resources:
   Bucket:
     Type: AWS::S3::Bucket
