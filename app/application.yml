@@ -52,7 +52,7 @@ Resources:
             }
           };
       Timeout: 30
-      Runtime: nodejs4.3
+      Runtime: nodejs12.x
   LambdaExecutionRole:
     Type: AWS::IAM::Role
     Properties:
