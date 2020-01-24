@@ -74,4 +74,4 @@ Resources:
               Action:
                 - 's3:PutObject'
                 - 'S3:DeleteObject'
-              Resource: !Sub "arn:aws:s3:::${BucketName}/${Key}"
+              Resource: !Sub "arn:aws:s3:::${Bucket}/${Key}"
