@@ -14,14 +14,14 @@ fi
 
 
 # make bucket if does not exist
-aws s3 mb s3://${BUILD_BUCKET} --region $REGION
+# aws s3 mb s3://${BUILD_BUCKET} --region $REGION
 
 # halt execution if commands return non-zero exit code
 set -eu
 
 # make build dir for artifacts
-rm -rf build
-mkdir build
+# rm -rf build
+# mkdir build
 
 #aws cloudformation package --template-file pipeline.yml --output-template-file build/pipeline.yml \
 #  --s3-bucket $BUILD_BUCKET
