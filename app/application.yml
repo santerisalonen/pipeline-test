@@ -1,5 +1,5 @@
 AWSTemplateFormatVersion: '2010-09-09'
-# *** Change this to something useful for you!
+# *** Change this to something useful for you
 Description: github-codepipeline-app
 
 
