@@ -103,5 +103,5 @@ Resources:
 
 Outputs:
   WebsiteURL:
-    Value: !Sub http://${Bucket.WesiteURL}
+    Value: !GetAtt Bucket.WesiteURL
     Description: URL for website hosted on S3
